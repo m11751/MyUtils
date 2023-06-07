@@ -1,0 +1,3956 @@
+{
+	"base": {
+		"deviceList": [
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/1/18",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "72001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "12/1/18",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/4/18",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"16",
+									"32",
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "72002",
+						"name": "目标温度",
+						"sendList": [
+							{
+								"addr": "12/4/18",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"16",
+									"32",
+									"1"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "targetTemp"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/3/18",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									null,
+									"6"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "72003",
+						"name": "风速",
+						"sendList": [
+							{
+								"addr": "12/3/18",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									null,
+									"6"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "speed"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/2/18",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									"5",
+									null,
+									null,
+									null
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "72004",
+						"name": "模式",
+						"sendList": [
+							{
+								"addr": "12/2/18",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									"5",
+									null,
+									null,
+									null
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "mode"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"16",
+									"32",
+									"2"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "72005",
+						"name": "传感器当前温度",
+						"sendList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"16",
+									"32",
+									"2"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "tempSensor"
+					}
+				],
+				"icon": "icon_ac_01",
+				"id": "72",
+				"name": "空调1",
+				"subType": "1",
+				"type": "AC"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/1/19",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "73001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "12/1/19",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/4/19",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"16",
+									"32",
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "73002",
+						"name": "目标温度",
+						"sendList": [
+							{
+								"addr": "12/4/19",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"16",
+									"32",
+									"1"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "targetTemp"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/3/19",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									null,
+									"6"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "73003",
+						"name": "风速",
+						"sendList": [
+							{
+								"addr": "12/3/19",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									null,
+									"6"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "speed"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/2/19",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									"5",
+									null,
+									null,
+									null
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "73004",
+						"name": "模式",
+						"sendList": [
+							{
+								"addr": "12/2/19",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									"5",
+									null,
+									null,
+									null
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "mode"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"16",
+									"32",
+									"2"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "73005",
+						"name": "传感器当前温度",
+						"sendList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"16",
+									"32",
+									"2"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "tempSensor"
+					}
+				],
+				"icon": "icon_ac_01",
+				"id": "73",
+				"name": "空调2",
+				"subType": "1",
+				"type": "AC"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/1/20",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "74001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "12/1/20",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/4/20",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"16",
+									"32",
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "74002",
+						"name": "目标温度",
+						"sendList": [
+							{
+								"addr": "12/4/20",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"16",
+									"32",
+									"1"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "targetTemp"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/3/20",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									null,
+									"6"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "74003",
+						"name": "风速",
+						"sendList": [
+							{
+								"addr": "12/3/20",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									null,
+									"6"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "speed"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/2/20",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									"5",
+									null,
+									null,
+									null
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "74004",
+						"name": "模式",
+						"sendList": [
+							{
+								"addr": "12/2/20",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									"5",
+									null,
+									null,
+									null
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "mode"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"16",
+									"32",
+									"2"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "74005",
+						"name": "传感器当前温度",
+						"sendList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"16",
+									"32",
+									"2"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "tempSensor"
+					}
+				],
+				"icon": "icon_ac_01",
+				"id": "74",
+				"name": "空调3",
+				"subType": "1",
+				"type": "AC"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "102001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "10/1/211",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "102003",
+						"name": "停",
+						"sendList": [
+							{
+								"addr": "10/2/211",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "stop"
+					}
+				],
+				"icon": "icon_curtain_04",
+				"id": "102",
+				"name": "走廊卷帘",
+				"subType": "0",
+				"type": "curtain"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "103001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "10/1/212",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "103003",
+						"name": "停",
+						"sendList": [
+							{
+								"addr": "10/2/212",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "stop"
+					}
+				],
+				"icon": "icon_curtain_01",
+				"id": "103",
+				"name": "南面卷帘",
+				"subType": "0",
+				"type": "curtain"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": "℃",
+						"feedbackList": [
+							{
+								"addr": "11/5/18",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"-10",
+									"50",
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "2410001",
+						"name": "状态",
+						"sendList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"-10",
+									"50",
+									"6"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "value"
+					}
+				],
+				"icon": "icon_envsensor_01",
+				"id": "2410",
+				"name": "温度",
+				"subType": "0",
+				"type": "envSensor"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": "%",
+						"feedbackList": [
+							{
+								"addr": "11/6/18",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"0",
+									"100",
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "2411001",
+						"name": "状态",
+						"sendList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"0",
+									"100",
+									"10"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "value"
+					}
+				],
+				"icon": "icon_envsensor_02",
+				"id": "2411",
+				"name": "湿度",
+				"subType": "1",
+				"type": "envSensor"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/106",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "106001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/105",
+								"dataLength": "8",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/109",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"0",
+									null,
+									"2",
+									"1",
+									null
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "106002",
+						"name": "音源",
+						"sendList": [
+							{
+								"addr": "2/1/108",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"0",
+									null,
+									"2",
+									"1",
+									null
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "source"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/102",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"0",
+									"255",
+									"26"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "106003",
+						"name": "音量",
+						"sendList": [
+							{
+								"addr": "2/1/101",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"0",
+									"255",
+									"26"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "volume"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "106004",
+						"name": "上一曲/下一曲",
+						"sendList": [
+							{
+								"addr": "2/1/107",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"0",
+									"1"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "upDown"
+					}
+				],
+				"icon": "icon_media_01",
+				"id": "106",
+				"name": "背景音乐",
+				"subType": "0",
+				"type": "media"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/18",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "89001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/17",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_01",
+				"id": "89",
+				"name": "走廊筒灯1",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/20",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "90001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/19",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_01",
+				"id": "90",
+				"name": "走廊筒灯2",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/2",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "91001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/1",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_07",
+				"id": "91",
+				"name": "线型灯1",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/4",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "92001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/3",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_07",
+				"id": "92",
+				"name": "线型灯2",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/16",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "93001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/15",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_07",
+				"id": "93",
+				"name": "灯带1",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/14",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "94001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/13",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_07",
+				"id": "94",
+				"name": "灯带2",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/6",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "95001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/5",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_06",
+				"id": "95",
+				"name": "南面射灯1",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/8",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "96001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/7",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_06",
+				"id": "96",
+				"name": "南面射灯2",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/12",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "97001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/11",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_07",
+				"id": "97",
+				"name": "地脚灯带1",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "2",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/10",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "98001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/1/9",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_07",
+				"id": "98",
+				"name": "地脚灯带2",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "17",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/1/17",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "69001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "12/1/17",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/4/17",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"16",
+									"32",
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "69002",
+						"name": "目标温度",
+						"sendList": [
+							{
+								"addr": "12/4/17",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"16",
+									"32",
+									"1"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "targetTemp"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/3/17",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									null,
+									"6"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "69003",
+						"name": "风速",
+						"sendList": [
+							{
+								"addr": "12/3/17",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									null,
+									"6"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "speed"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "11/2/17",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									"5",
+									null,
+									null,
+									null
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "69004",
+						"name": "模式",
+						"sendList": [
+							{
+								"addr": "12/2/17",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"2",
+									"3",
+									null,
+									"5",
+									null,
+									null,
+									null
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "mode"
+					},
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"16",
+									"32",
+									"2"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "69005",
+						"name": "传感器当前温度",
+						"sendList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"16",
+									"32",
+									"2"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "tempSensor"
+					}
+				],
+				"icon": "icon_ac_01",
+				"id": "69",
+				"name": "空调",
+				"subType": "1",
+				"type": "AC"
+			},
+			{
+				"area": "17",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "109001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "10/1/6",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "109003",
+						"name": "停",
+						"sendList": [
+							{
+								"addr": "10/2/6",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "stop"
+					}
+				],
+				"icon": "icon_curtain_04",
+				"id": "109",
+				"name": "北面卷帘",
+				"subType": "0",
+				"type": "curtain"
+			},
+			{
+				"area": "17",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "110001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "10/1/9",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "110003",
+						"name": "停",
+						"sendList": [
+							{
+								"addr": "10/2/9",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "stop"
+					}
+				],
+				"icon": "icon_curtain_04",
+				"id": "110",
+				"name": "南面卷帘",
+				"subType": "0",
+				"type": "curtain"
+			},
+			{
+				"area": "17",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": "℃",
+						"feedbackList": [
+							{
+								"addr": "11/5/17",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"-10",
+									"50",
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "2412001",
+						"name": "状态",
+						"sendList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"-10",
+									"50",
+									"6"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "value"
+					}
+				],
+				"icon": "icon_envsensor_01",
+				"id": "2412",
+				"name": "温度",
+				"subType": "0",
+				"type": "envSensor"
+			},
+			{
+				"area": "17",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": "%",
+						"feedbackList": [
+							{
+								"addr": "11/6/17",
+								"dataLength": "8",
+								"dataType": "2",
+								"dataValueList": [
+									"0",
+									"100",
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "2413001",
+						"name": "状态",
+						"sendList": [
+							{
+								"addr": "0",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"0",
+									"100",
+									"10"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "value"
+					}
+				],
+				"icon": "icon_envsensor_02",
+				"id": "2413",
+				"name": "湿度",
+				"subType": "1",
+				"type": "envSensor"
+			},
+			{
+				"area": "17",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/2/2",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "107001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/2/1",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_07",
+				"id": "107",
+				"name": "线型灯1",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "17",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/2/4",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "108001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/2/3",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_07",
+				"id": "108",
+				"name": "线型灯2",
+				"subType": "0",
+				"type": "light"
+			},
+			{
+				"area": "100",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "115001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "9/1/211",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					},
+					{
+						"ext": null,
+						"feedbackList": null,
+						"id": "115003",
+						"name": "停",
+						"sendList": [
+							{
+								"addr": "9/2/211",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "stop"
+					}
+				],
+				"icon": "icon_curtain_04",
+				"id": "115",
+				"name": "电梯厅卷帘",
+				"subType": "0",
+				"type": "curtain"
+			},
+			{
+				"area": "100",
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/0/2",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "101001",
+						"name": "开关",
+						"sendList": [
+							{
+								"addr": "2/0/1",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"1",
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "switch"
+					}
+				],
+				"icon": "icon_light_01",
+				"id": "101",
+				"name": "电梯厅筒灯",
+				"subType": "0",
+				"type": "light"
+			}
+		]
+	},
+	"gatewaySetting": {
+		"RS485PortConfig2": [
+			{
+				"id": "8",
+				"name": "开利空调",
+				"portId": "0",
+				"portNode": "/dev/ttyS0",
+				"deviceType": "AC",
+				"deviceSubType": "1",
+				"deviceModel": "WRC100GC",
+				"gatewayType": "GW-EK5-N01",
+				"appName": "开利485",
+				"appIcon": "",
+				"packageName": "com.ttg.rs485.kaili",
+				"appDecription": "",
+				"URL": "",
+				"ext": null,
+				"RS485DeviceList": [
+					{
+						"id": "9",
+						"name": "研发办公区3",
+						"type": "AC",
+						"subType": "1",
+						"deviceModel": "WRC100GC",
+						"deviceAddress": "0-19",
+						"ext": "",
+						"functionList": [
+							{
+								"id": "901",
+								"name": "开关",
+								"type": "switch",
+								"sendList": [
+									{
+										"addr": "12/1/20",
+										"dataLength": "0",
+										"dataType": "0",
+										"protocolType": "KNX",
+										"dataValueList": [
+											"1",
+											"0"
+										]
+									}
+								],
+								"feedbackList": [
+									{
+										"addr": "11/1/20",
+										"dataLength": "0",
+										"dataType": "0",
+										"protocolType": "KNX",
+										"dataValueList": [
+											"1",
+											"0"
+										]
+									}
+								],
+								"ext": null
+							},
+							{
+								"id": "902",
+								"name": "目标温度",
+								"type": "targetTemp",
+								"sendList": [
+									{
+										"addr": "12/4/20",
+										"dataLength": "8",
+										"dataType": "2",
+										"protocolType": "KNX",
+										"dataValueList": [
+											"16",
+											"32",
+											"1"
+										]
+									}
+								],
+								"feedbackList": [
+									{
+										"addr": "11/4/20",
+										"dataLength": "8",
+										"dataType": "2",
+										"protocolType": "KNX",
+										"dataValueList": [
+											"16",
+											"32",
+											"1"
+										]
+									}
+								],
+								"ext": null
+							},
+							{
+								"id": "903",
+								"name": "风速",
+								"type": "speed",
+								"sendList": [
+									{
+										"addr": "12/3/20",
+										"dataLength": "7",
+										"dataType": "0",
+										"protocolType": "KNX",
+										"dataValueList": [
+											"1",
+											"2",
+											"3",
+											"4",
+											"5",
+											"6"
+										]
+									}
+								],
+								"feedbackList": [
+									{
+										"addr": "11/3/20",
+										"dataLength": "7",
+										"dataType": "0",
+										"protocolType": "KNX",
+										"dataValueList": [
+											"1",
+											"2",
+											"3",
+											"4",
+											"5",
+											"6"
+										]
+									}
+								],
+								"ext": null
+							},
+							{
+								"id": "904",
+								"name": "模式",
+								"type": "mode",
+								"sendList": [
+									{
+										"addr": "12/2/20",
+										"dataLength": "7",
+										"dataType": "0",
+										"protocolType": "KNX",
+										"dataValueList": [
+											"1",
+											"2",
+											"3",
+											"4",
+											"5",
+											"6",
+											"7",
+											"8"
+										]
+									}
+								],
+								"feedbackList": [
+									{
+										"addr": "11/2/20",
+										"dataLength": "7",
+										"dataType": "0",
+										"protocolType": "KNX",
+										"dataValueList": [
+											"1",
+											"2",
+											"3",
+											"4",
+											"5",
+											"6",
+											"7",
+											"8"
+										]
+									}
+								],
+								"ext": null
+							}
+						]
+					}
+				]
+			}
+		],
+		"RS485Port": [
+			{
+				"RS485DeviceList": [
+					{
+						"deviceAddress": "0-15",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "13",
+						"mode": [
+							{
+								"addr": "12/2/15",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/15",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "林总办公室",
+						"onOff": [
+							{
+								"addr": "12/1/15",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/15",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/15",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/15",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/15",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/15",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-14",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "53",
+						"mode": [
+							{
+								"addr": "12/2/16",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/16",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "姚工办公室",
+						"onOff": [
+							{
+								"addr": "12/1/16",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/16",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/16",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/16",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/16",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/16",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-16",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "54",
+						"mode": [
+							{
+								"addr": "12/2/17",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/17",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "研发会议室",
+						"onOff": [
+							{
+								"addr": "12/1/17",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/17",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/17",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/17",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/17",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/17",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-17",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "55",
+						"mode": [
+							{
+								"addr": "12/2/18",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/18",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "研发办公区1",
+						"onOff": [
+							{
+								"addr": "12/1/18",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/18",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/18",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/18",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/18",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/18",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-18",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "56",
+						"mode": [
+							{
+								"addr": "12/2/19",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/19",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "研发办公区2",
+						"onOff": [
+							{
+								"addr": "12/1/19",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/19",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/19",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/19",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/19",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/19",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-19",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "57",
+						"mode": [
+							{
+								"addr": "12/2/20",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/20",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "研发办公区3",
+						"onOff": [
+							{
+								"addr": "12/1/20",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/20",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/20",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/20",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/20",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/20",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-20",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "58",
+						"mode": [
+							{
+								"addr": "12/2/21",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/21",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "营销会议室",
+						"onOff": [
+							{
+								"addr": "12/1/21",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/21",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/21",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/21",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/21",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/21",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-21",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "59",
+						"mode": [
+							{
+								"addr": "12/2/22",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/22",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "营销办公区1",
+						"onOff": [
+							{
+								"addr": "12/1/22",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/22",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/22",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/22",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/22",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/22",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-22",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "60",
+						"mode": [
+							{
+								"addr": "12/2/23",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/23",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "营销办公区2",
+						"onOff": [
+							{
+								"addr": "12/1/23",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/23",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/23",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/23",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/23",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/23",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-23",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "61",
+						"mode": [
+							{
+								"addr": "12/2/24",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/24",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "营销办公区3",
+						"onOff": [
+							{
+								"addr": "12/1/24",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/24",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/24",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/24",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/24",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/24",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-24",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "62",
+						"mode": [
+							{
+								"addr": "12/2/25",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/25",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "行政办公室",
+						"onOff": [
+							{
+								"addr": "12/1/25",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/25",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/25",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/25",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/25",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/25",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-25",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "63",
+						"mode": [
+							{
+								"addr": "12/2/26",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/26",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "潘哥办公室",
+						"onOff": [
+							{
+								"addr": "12/1/26",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/26",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/26",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/26",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/26",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/26",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-26",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "64",
+						"mode": [
+							{
+								"addr": "12/2/27",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/27",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "财务办公室",
+						"onOff": [
+							{
+								"addr": "12/1/27",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/27",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/27",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/27",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/27",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/27",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-27",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "65",
+						"mode": [
+							{
+								"addr": "12/2/28",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/28",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "财务经理室",
+						"onOff": [
+							{
+								"addr": "12/1/28",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/28",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/28",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/28",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/28",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/28",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-28",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "66",
+						"mode": [
+							{
+								"addr": "12/2/29",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/29",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "姚总办公室1",
+						"onOff": [
+							{
+								"addr": "12/1/29",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/29",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/29",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/29",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/29",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/29",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					},
+					{
+						"deviceAddress": "0-29",
+						"deviceModel": "WRC100GC",
+						"deviceType": "0",
+						"ext": "",
+						"id": "67",
+						"mode": [
+							{
+								"addr": "12/2/30",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"modeFeedback": [
+							{
+								"addr": "11/2/30",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"name": "姚总办公室2",
+						"onOff": [
+							{
+								"addr": "12/1/30",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"onOffFeedback": [
+							{
+								"addr": "11/1/30",
+								"dataLength": "0",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speed": [
+							{
+								"addr": "12/3/30",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"speedFeedback": [
+							{
+								"addr": "11/3/30",
+								"dataLength": "7",
+								"dataType": "0",
+								"protocolType": "KNX"
+							}
+						],
+						"targetTemp": [
+							{
+								"addr": "12/4/30",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						],
+						"tempFeedback": [
+							{
+								"addr": "11/4/30",
+								"dataLength": "8",
+								"dataType": "2",
+								"protocolType": "KNX"
+							}
+						]
+					}
+				],
+				"URL": "",
+				"appDecription": "",
+				"appIcon": "",
+				"appName": "开利485",
+				"deviceModel": "WRC100GC",
+				"deviceType": "0",
+				"ext": null,
+				"id": "7",
+				"name": "开利空调",
+				"packageName": "com.ttg.rs485.kaili",
+				"portId": "0",
+				"portNode": "/dev/ttyS0",
+				"type": "GW-EK5-N01"
+			}
+		],
+		"checkAddr": "",
+		"deviceMgmtMode": [
+			"list"
+		],
+		"devicePsw": "",
+		"deviceUser": "",
+		"gatewayType": "TTG-IP/S",
+		"id485": "",
+		"ip": "192.168.1.100",
+		"knxSrcAddr": "",
+		"port": "3671"
+	},
+	"idMax": 9626001,
+	"layout": {
+		"deviceType": {
+			"deviceList": [
+				{
+					"id": "72",
+					"layout": "74:103:16:10:200:200:1.0"
+				},
+				{
+					"id": "73",
+					"layout": "105:103:16:10:200:200:1.0"
+				},
+				{
+					"id": "74",
+					"layout": "136:102:16:10:200:200:1.0"
+				},
+				{
+					"id": "102",
+					"layout": "97:61:16:10:200:200:1.0"
+				},
+				{
+					"id": "103",
+					"layout": "98:141:16:10:200:200:1.0"
+				},
+				{
+					"id": "2410",
+					"layout": "104:94:16:10:200:200:1.0"
+				},
+				{
+					"id": "2411",
+					"layout": "104:109:16:10:200:200:1.0"
+				},
+				{
+					"id": "106",
+					"layout": "106:103:16:10:200:200:1.0"
+				},
+				{
+					"id": "89",
+					"layout": "124:61:16:10:200:200:1.0"
+				},
+				{
+					"id": "90",
+					"layout": "83:61:16:10:200:200:1.0"
+				},
+				{
+					"id": "91",
+					"layout": "125:94:16:10:200:200:1.0"
+				},
+				{
+					"id": "92",
+					"layout": "84:94:16:10:200:200:1.0"
+				},
+				{
+					"id": "93",
+					"layout": "125:110:16:10:200:200:1.0"
+				},
+				{
+					"id": "94",
+					"layout": "85:110:16:10:200:200:1.0"
+				},
+				{
+					"id": "95",
+					"layout": "126:138:16:10:200:200:1.0"
+				},
+				{
+					"id": "96",
+					"layout": "85:138:16:10:200:200:1.0"
+				},
+				{
+					"id": "97",
+					"layout": "102:76:16:10:200:200:1.0"
+				},
+				{
+					"id": "98",
+					"layout": "104:130:16:10:200:200:1.0"
+				},
+				{
+					"id": "69",
+					"layout": "26:97:16:10:200:200:1.0"
+				},
+				{
+					"id": "109",
+					"layout": "26:61:16:10:200:200:1.0"
+				},
+				{
+					"id": "110",
+					"layout": "27:127:16:10:200:200:1.0"
+				},
+				{
+					"id": "2412",
+					"layout": "27:94:16:10:200:200:1.0"
+				},
+				{
+					"id": "2413",
+					"layout": "27:108:16:10:200:200:1.0"
+				},
+				{
+					"id": "107",
+					"layout": "26:80:16:10:200:200:1.0"
+				},
+				{
+					"id": "108",
+					"layout": "27:115:16:10:200:200:1.0"
+				},
+				{
+					"id": "115",
+					"layout": "175:61:16:10:200:200:1.0"
+				},
+				{
+					"id": "101",
+					"layout": "183:76:16:10:200:200:1.0"
+				}
+			],
+			"icon": "logo.png",
+			"id": "1111",
+			"name": "设备",
+			"typeList": [
+				{
+					"icon": "icon_light_01",
+					"id": "701",
+					"name": "灯光",
+					"type": "light"
+				},
+				{
+					"icon": "icon_curtain_01",
+					"id": "702",
+					"name": "窗帘",
+					"type": "curtain"
+				},
+				{
+					"icon": "icon_ac_01",
+					"id": "704",
+					"name": "空调",
+					"type": "AC"
+				},
+				{
+					"icon": "icon_media_01",
+					"id": "707",
+					"name": "影音",
+					"type": "media"
+				},
+				{
+					"icon": "icon_envsensor_01",
+					"id": "710",
+					"name": "环境",
+					"type": "envSensor"
+				}
+			]
+		},
+		"lang": "",
+		"location": {
+			"floorList": [
+				{
+					"areaList": [
+						{
+							"background": "",
+							"icon": "",
+							"id": "2",
+							"layout": "1:1:200:200",
+							"name": "研发中心"
+						},
+						{
+							"background": "",
+							"icon": "",
+							"id": "17",
+							"layout": "1:1:200:200",
+							"name": "研发会议室"
+						},
+						{
+							"background": "",
+							"icon": "",
+							"id": "100",
+							"layout": "1:1:200:200",
+							"name": "电梯厅"
+						}
+					],
+					"background": "TTGRD",
+					"icon": "",
+					"id": "1",
+					"layout": "1:1:16:10",
+					"name": "研发中心"
+				}
+			],
+			"icon": "",
+			"id": "0",
+			"layout": "1:1:16:10",
+			"name": "S2栋五楼"
+		},
+		"projectBackground": "",
+		"smartType": {
+			"icon": "icon_scene_06",
+			"id": "1115",
+			"layout": "1:1:4:1",
+			"name": "智能",
+			"typeList": [
+				{
+					"icon": "icon_scene_07",
+					"id": "750",
+					"name": "手动场景",
+					"type": "scene"
+				},
+				{
+					"icon": "icon_scene_09",
+					"id": "751",
+					"name": "自动场景",
+					"type": "automation"
+				},
+				{
+					"icon": "icon_scene_04",
+					"id": "752",
+					"name": "闹钟",
+					"type": "AlarmClockSetting"
+				},
+				{
+					"icon": "icon_scene_01",
+					"id": "753",
+					"name": "日程",
+					"type": "scheduleSetting"
+				},
+				{
+					"icon": "icon_scene_05",
+					"id": "754",
+					"name": "日程场景",
+					"type": "schedule"
+				}
+			]
+		}
+	},
+	"smart": {
+		"etsList": [
+			{
+				"area": "2",
+				"background": "",
+				"edit": true,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"4"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "118001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"4"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_02",
+				"id": "118",
+				"name": "上班场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "2",
+				"background": "",
+				"edit": true,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"6"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "409001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"6"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_12",
+				"id": "409",
+				"name": "午休场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "2",
+				"background": "",
+				"edit": true,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"2"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "758001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"2"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_05",
+				"id": "758",
+				"name": "明亮场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "2",
+				"background": "",
+				"edit": true,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"3"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "788001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"3"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_05",
+				"id": "788",
+				"name": "柔和场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "2",
+				"background": "",
+				"edit": false,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "9626001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_05",
+				"id": "9626",
+				"name": "总开场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "2",
+				"background": "",
+				"edit": false,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "7505001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_06",
+				"id": "7505",
+				"name": "总关场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "2",
+				"background": "",
+				"edit": false,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "0",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"5"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "963001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/1/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"5"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							},
+							{
+								"addr": "12/1/22",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							},
+							{
+								"addr": "12/1/23",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							},
+							{
+								"addr": "12/1/24",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							},
+							{
+								"addr": "2/1/105",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_03",
+				"id": "963",
+				"name": "下班场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "17",
+				"background": "",
+				"edit": false,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/2/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "2461001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/2/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_05",
+				"id": "2461",
+				"name": "总开场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "17",
+				"background": "",
+				"edit": false,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "2/2/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "2665001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/2/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_06",
+				"id": "2665",
+				"name": "总关场景",
+				"taskList": null,
+				"type": "ets"
+			},
+			{
+				"area": "17",
+				"background": "",
+				"edit": false,
+				"floor": "1",
+				"functionList": [
+					{
+						"ext": null,
+						"feedbackList": [
+							{
+								"addr": "0",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1"
+								],
+								"protocolType": "KNX"
+							}
+						],
+						"id": "2956001",
+						"name": "激活",
+						"sendList": [
+							{
+								"addr": "2/2/200",
+								"dataLength": "7",
+								"dataType": "0",
+								"dataValueList": [
+									"1"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							},
+							{
+								"addr": "12/1/17",
+								"dataLength": "0",
+								"dataType": "0",
+								"dataValueList": [
+									"0"
+								],
+								"protocolType": "KNX",
+								"sleep": 0
+							}
+						],
+						"type": "activate"
+					}
+				],
+				"group": "",
+				"icon": "icon_scene_03",
+				"id": "2956",
+				"name": "离开场景",
+				"taskList": null,
+				"type": "ets"
+			}
+		]
+	},
+	"version": 6060
+}
