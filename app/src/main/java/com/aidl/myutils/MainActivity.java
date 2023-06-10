@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         try {
 //            LinkedListTest.main(null);
-            TreeSetTest.main(null);
+//            TreeSetTest.main(null);
+            EncryptionAndDecryption.main(null);
         } catch (Exception e) {
             Log.i(TAG,"exception:" + e);
             throw new RuntimeException(e);
